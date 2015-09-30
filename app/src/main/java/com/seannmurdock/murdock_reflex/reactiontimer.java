@@ -4,12 +4,14 @@ package com.seannmurdock.murdock_reflex;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.text.format.Time;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Objects;
 import java.util.Random;
 
 
@@ -18,6 +20,8 @@ public class reactiontimer extends ActionBarActivity {
     public boolean b;
     private Handler h = new Handler();
     private Random r = new Random();
+    private long starttime;
+    private long endtime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,12 +73,12 @@ public class reactiontimer extends ActionBarActivity {
         public void run(){
             b = false;
             timeButton.setText("Press!");
-            //<-- put your code in here.
+            starttime = System.currentTimeMillis();
+            //start timer?
         }
     };
 
     public void buttonclick(View view) {
-        //int status = (Integer) timeButton.getTag();
         if (b){
             String astring = "wait for the prompt!";
             TextView textView3 = (TextView) findViewById(R.id.textView3);
@@ -82,10 +86,13 @@ public class reactiontimer extends ActionBarActivity {
              onResume();
         } else {
             // record time
-            String astring = "you pressed it";
+            String astring;
             String bstring = "";
             TextView textView4=(TextView)findViewById(R.id.textView4);
             TextView textView3 = (TextView) findViewById(R.id.textView3);
+            long end = System.currentTimeMillis();
+            end = end - starttime;
+            astring = String.valueOf(end);
             textView4.setText(astring);
             textView3.setText(bstring);
             onResume();
