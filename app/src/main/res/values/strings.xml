@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">murdock-reflex</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reactiontimer">reactiontimer</string>
+    <string name="title_activity_player_select">playerSelect</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_game_show_buzzer">gameShowBuzzer</string>
+    <string name="title_activity_gameshow">gameshow</string>
+</resources>
