@@ -1,21 +1,36 @@
 package com.seannmurdock.murdock_reflex;
 
+
+import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import java.util.Random;
 
+
 public class reactiontimer extends ActionBarActivity {
+    public Button timeButton;
+    public boolean b;
+    private Handler h = new Handler();
+    private Random r = new Random();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reactiontimer);
+        timeButton = (Button) findViewById(R.id.button4);
+        timeButton.setTag("1");
+        timeButton.setText("Wait");
+
     }
 
-    @Override
+
+            @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_reactiontimer, menu);
@@ -37,12 +52,49 @@ public class reactiontimer extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //uses handler to manage waiting and generates a random number of time to wait
     @Override
-    public void onResume(){
+    public void onResume() {
         super.onResume();
-        Random r = new Random();
+        timeButton = (Button) findViewById(R.id.button4);
+        b = true;
+        timeButton.setText("Wait");
         int wait = r.nextInt(1990) + 10;
-
-
+        h.postDelayed(test1, wait);
     }
+
+    //changes the function and text of the button from waiting to pressing
+    public Runnable test1 = new Runnable() {
+        @Override
+        public void run(){
+            b = false;
+            timeButton.setText("Press!");
+            //<-- put your code in here.
+        }
+    };
+
+    public void buttonclick(View view) {
+        //int status = (Integer) timeButton.getTag();
+        if (b){
+            String astring = "wait for the prompt!";
+            TextView textView3 = (TextView) findViewById(R.id.textView3);
+            textView3.setText(astring);
+             onResume();
+        } else {
+            // record time
+            String astring = "you pressed it";
+            String bstring = "";
+            TextView textView4=(TextView)findViewById(R.id.textView4);
+            TextView textView3 = (TextView) findViewById(R.id.textView3);
+            textView4.setText(astring);
+            textView3.setText(bstring);
+            onResume();
+        }
+    }
+
+
+
+
 }
+
+
