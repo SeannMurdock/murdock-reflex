@@ -73,19 +73,21 @@ public class reactiontimer extends ActionBarActivity {
         public void run(){
             b = false;
             timeButton.setText("Press!");
+            //start timer
             starttime = System.currentTimeMillis();
-            //start timer?
+
         }
     };
-
+// manages button depending on the boolean b
     public void buttonclick(View view) {
+        // if button is pressed to early
         if (b){
             String astring = "wait for the prompt!";
             TextView textView3 = (TextView) findViewById(R.id.textView3);
             textView3.setText(astring);
              onResume();
         } else {
-            // record time
+            // record time and reset clocks
             String astring;
             String bstring = "";
             TextView textView4=(TextView)findViewById(R.id.textView4);
