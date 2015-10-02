@@ -8,4 +8,7 @@
     <string name="title_activity_statistics">Statistics</string>
     <string name="title_activity_game_show_buzzer">gameShowBuzzer</string>
     <string name="title_activity_gameshow">gameshow</string>
+    <string name="title_activity_game_show_buzzer2">gameShowBuzzer2</string>
+    <string name="title_activity_game_show_buzzer3">gameShowBuzzer3</string>
+    <string name="title_activity_game_show_buzzer4">gameShowBuzzer4</string>
 </resources>

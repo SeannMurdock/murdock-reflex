@@ -48,6 +48,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.seannmurdock.murdock_reflex.playerSelect" />
         </activity>
+        <activity
+            android:name=".gameShowBuzzer2"
+            android:label="@string/title_activity_game_show_buzzer2"
+            android:parentActivityName=".playerSelect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seannmurdock.murdock_reflex.playerSelect" />
+        </activity>
+        <activity
+            android:name=".gameShowBuzzer3"
+            android:label="@string/title_activity_game_show_buzzer3"
+            android:parentActivityName=".playerSelect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seannmurdock.murdock_reflex.playerSelect" />
+        </activity>
+        <activity
+            android:name=".gameShowBuzzer4"
+            android:label="@string/title_activity_game_show_buzzer4"
+            android:parentActivityName=".playerSelect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seannmurdock.murdock_reflex.playerSelect" />
+        </activity>
     </application>
 
 </manifest>
