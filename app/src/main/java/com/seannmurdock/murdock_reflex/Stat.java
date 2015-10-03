@@ -6,6 +6,10 @@ package com.seannmurdock.murdock_reflex;
 public class Stat {
     private String data;
 
+    public Stat(){
+        this.data = "0";
+    }
+
     public Stat(String data) {
         this.data = data;
     }
