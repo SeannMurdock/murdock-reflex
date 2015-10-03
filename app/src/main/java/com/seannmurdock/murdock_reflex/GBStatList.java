@@ -19,4 +19,9 @@ public class GBStatList {
         y = y +1;
         this.stats.set(x-1, y);
     }
+
+    public String get(int i){
+        int y = this.stats.get(i-1);
+        return Integer.toString(y);
+    }
 }

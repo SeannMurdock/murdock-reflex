@@ -7,9 +7,9 @@ import java.util.ArrayList;
  */
 public class RStatList extends StatList{
     private int maxlen;
-    private int maxval;
-    private int minval;
-    private int avgval;
+    private int maxval = 0;
+    private int minval = 0;
+    private float avgval = 0;
 
     public RStatList(int maxlen) {
         this.maxlen = maxlen;
@@ -19,7 +19,7 @@ public class RStatList extends StatList{
     }
     public void setavg(){
         int x = this.getcount();
-        int total = 0;
+        float total = 0;
         Stat stat;
         for(int y = 0; y < x;  y++  ){
                 stat = stats.get(y);
@@ -68,5 +68,16 @@ public class RStatList extends StatList{
         else{
             this.stats.add(stat);
         }
+    }
+    public int getMaxval(){
+        return this.maxval;
+    }
+
+    public int getMinval() {
+        return minval;
+    }
+
+    public float getAvgval() {
+        return avgval;
     }
 }
