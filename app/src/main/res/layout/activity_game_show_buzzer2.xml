@@ -16,7 +16,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="75dp" />
+        android:textSize="75dp"
+        android:onClick="player1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -28,5 +29,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="75dp" />
+        android:textSize="75dp"
+        android:onClick="player2" />
 </RelativeLayout>

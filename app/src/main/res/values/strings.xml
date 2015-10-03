@@ -11,4 +11,13 @@
     <string name="title_activity_game_show_buzzer2">gameShowBuzzer2</string>
     <string name="title_activity_game_show_buzzer3">gameShowBuzzer3</string>
     <string name="title_activity_game_show_buzzer4">gameShowBuzzer4</string>
+    <string name="dialog_title">Result!</string>
+    <string name="dialog_message1">The player who pressed first was Player1</string>
+    <string name="dialog_message2">The player who pressed first was Player2</string>
+    <string name="dialog_message3">The player who pressed first was Player3</string>
+    <string name="dialog_message4">The player who pressed first was Player4</string>
+    <string name="ok">OK</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

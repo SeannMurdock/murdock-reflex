@@ -5,3 +5,6 @@ http://stackoverflow.com/questions/6297159/change-button-text-and-action-android
 
 http://stackoverflow.com/questions/11548864/how-to-make-an-android-program-wait
 // Make android program wait
+
+http://developer.android.com/reference/android/app/DialogFragment.html
+//Dialog Fragments (changing the dialog based on a argument)
