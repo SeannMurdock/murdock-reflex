@@ -1,11 +1,19 @@
 murdock reflex is a reaction timer trainer and gameshow buzzer app.
 
+
+
+References:
+
+Abram Hindle 
+https://www.youtube.com/watch?v=uLnoI7mbuEo&list=PL240uJOh_Vb4PtMZ0f7N8ACYkCLv0673O&index=5
+//Lazy singleton controllers.
+
 gopal
 http://stackoverflow.com/questions/6297159/change-button-text-and-action-android-development
 // Swap text on button
 
 
-http://stackoverflow.com/questions/11548864/how-to-make-an-android-program-wait
+http://developer.android.com/reference/android/os/Handler.html
 // Make android program wait
 
 http://developer.android.com/reference/android/app/DialogFragment.html
