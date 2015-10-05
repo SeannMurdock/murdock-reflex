@@ -22,20 +22,20 @@ public class gameShowBuzzer3 extends Activity {
 
     //Player 1 pressed first
     public void player1(View view) {
-        stat.setData("1");
-        stats.add(stat);
+        gsb3controller gb3c = new gsb3controller();
+        gb3c.P1press();
         popup(1);
     }
     //Player 2 pressed first
     public void player2(View view) {
-        stat.setData("2");
-        stats.add(stat);
+        gsb3controller gb3c = new gsb3controller();
+        gb3c.P2press();
         popup(2);
     }
     //Player 2 pressed first
     public void player3(View view) {
-        stat.setData("3");
-        stats.add(stat);
+        gsb3controller gb3c = new gsb3controller();
+        gb3c.P3press();
         popup(3);
     }
 

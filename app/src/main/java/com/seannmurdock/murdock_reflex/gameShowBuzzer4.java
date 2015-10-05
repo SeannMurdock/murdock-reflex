@@ -20,28 +20,29 @@ public class gameShowBuzzer4 extends Activity {
         newFragment.show(getFragmentManager(), "dialog");
     }
 
+
     //Player 1 pressed first
     public void player1(View view) {
-        stat.setData("1");
-        stats.add(stat);
+        gsb4controller gb4c = new gsb4controller();
+        gb4c.P1press();
         popup(1);
     }
     //Player 2 pressed first
     public void player2(View view) {
-        stat.setData("2");
-        stats.add(stat);
+        gsb4controller gb4c = new gsb4controller();
+        gb4c.P2press();
         popup(2);
     }
-    //Player 3 pressed first
+    //Player 2 pressed first
     public void player3(View view) {
-        stat.setData("3");
-        stats.add(stat);
+        gsb4controller gb4c = new gsb4controller();
+        gb4c.P3press();
         popup(3);
     }
     //Player 4 pressed first
     public void player4(View view) {
-        stat.setData("4");
-        stats.add(stat);
+        gsb4controller gb4c = new gsb4controller();
+        gb4c.P4press();
         popup(4);
     }
 }
