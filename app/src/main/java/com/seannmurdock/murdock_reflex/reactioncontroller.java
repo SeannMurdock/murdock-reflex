@@ -14,6 +14,6 @@ public class reactioncontroller {
     public void add(long l){
         String x = String.valueOf(l);
         Stat stat = new Stat(x);
-        getRStatList().add(stat);
+        getRStatList().add(0,stat);
     }
 }

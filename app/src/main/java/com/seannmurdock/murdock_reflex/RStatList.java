@@ -7,7 +7,9 @@ import java.util.Collections;
 /**
  * Created by murdock on 10/2/15.
  */
-public class RStatList extends Statlist{
+public class RStatList {
+    protected ArrayList<Stat> stats = new ArrayList<Stat>();
+
 
     public int getcount() {
         return stats.size();
