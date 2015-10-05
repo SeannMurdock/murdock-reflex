@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d934b5-7067-445b-8058-56fca8cbbcd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/doc/Diagram1.dia" afterPath="$PROJECT_DIR$/app/doc/Diagram1.dia" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" />
     </list>
     <ignored path="murdock-reflex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reactioncontroller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reactioncontroller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65048546">
+            <state vertical-scroll-proportion="0.0">
               <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
                 <element signature="e#0#1166#0" expanded="true" />
@@ -129,13 +130,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reactiontimer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reactiontimer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.30097088">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
               <folding>
-                <element signature="e#0#3168#0" expanded="true" />
+                <element signature="e#0#3142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1627,11 +1628,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb4controller.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/MainScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/playerSelect.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/RStatList.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Stat.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Statistics.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" />
       </list>
     </option>
   </component>
@@ -2338,7 +2339,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
           <folding>
-            <element signature="e#0#3168#0" expanded="true" />
+            <element signature="e#0#3142#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2432,7 +2433,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#3168#0" expanded="true" />
+            <element signature="e#0#3142#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2654,16 +2655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#3168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Stat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2719,10 +2710,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65048546">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
             <element signature="e#0#1166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30097088">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#3142#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -36,7 +36,6 @@ public class reactiontimer extends ActionBarActivity {
     private Handler h = new Handler();
     private Random r = new Random();
     private long starttime;
-    private long endtime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,11 +55,11 @@ public class reactiontimer extends ActionBarActivity {
         b = true;
         timeButton.setText("Wait");
         int wait = r.nextInt(1990) + 10;
-        h.postDelayed(test1, wait);
+        h.postDelayed(start, wait);
     }
 
     //changes the function and text of the button from waiting to pressing
-    public Runnable test1 = new Runnable() {
+    public Runnable start = new Runnable() {
         @Override
         public void run(){
             b = false;
