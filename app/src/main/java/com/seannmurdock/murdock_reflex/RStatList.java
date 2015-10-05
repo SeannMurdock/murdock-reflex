@@ -1,72 +1,135 @@
 package com.seannmurdock.murdock_reflex;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * Created by murdock on 10/2/15.
  */
-public class RStatList extends StatList{
-    private int maxlen;
-    private int maxval;
-    private int minval;
-    private int avgval;
+public class RStatList extends Statlist{
 
-    public RStatList(int maxlen) {
-        this.maxlen = maxlen;
-    }
     public int getcount() {
         return stats.size();
     }
-    public void setavg(){
+
+    public void add(int i,Stat stat){
+        this.stats.add(i,stat);
+
+    }
+    public String getmax(int i){
         int x = this.getcount();
-        int total = 0;
-        Stat stat;
-        for(int y = 0; y < x;  y++  ){
+        if(x>0) {
+            if (i == 0) {
+                i = this.getcount();
+            }
+            if (i > getcount()) {
+                i = this.getcount();
+            }
+            int max = 0;
+            Stat stat;
+            for (int y = 0; y < i; y++) {
                 stat = stats.get(y);
-                total = total + Integer.parseInt(stat.getData());
-        }
-        total = total/x;
-        this.avgval = total;
-    }
-    public void setmax(){
-        int x =this.getcount();
-        int max = 0;
-        Stat stat;
-        for(int y = 0; y<x; y++){
-            stat = stats.get(y);
-            if (max < Integer.parseInt(stat.getData())) {
-                max = Integer.parseInt(stat.getData());
+                if (max < Integer.parseInt(stat.getData())) {
+                    max = Integer.parseInt(stat.getData());
+                }
             }
+
+            return String.valueOf(max);
         }
-        this.maxval = max;
-    }
-    public void setmin(){
-        int x = this.getcount();
-        int min = 0;
-        Stat stat;
-        for (int y = 0; y<x; y++){
-            stat = stats.get(y);
-            if (min > Integer.parseInt(stat.getData())){
-                min = Integer.parseInt(stat.getData());
-            }
+        else {
+            return "0";
         }
-        this.minval = min;
     }
 
-    public void update(){
-        this.setavg();
-        this.setmax();
-        this.setmin();
-    }
-    @Override
-    public void add(Stat stat){
+    public String getmin(int i){
         int x = this.getcount();
-        if( x >= this.maxlen){
-            this.stats.remove(this.maxlen -1);
-            this.stats.add(stat);
+        if(x>0) {
+
+            if (i == 0) {
+                i = this.getcount();
+            }
+            if (i > getcount()) {
+                i = this.getcount();
+            }
+            int min = 100000000;
+            Stat stat;
+            for (int y = 0; y < i; y++) {
+                stat = stats.get(y);
+                if (min > Integer.parseInt(stat.getData())) {
+                    min = Integer.parseInt(stat.getData());
+                }
+            }
+
+            return String.valueOf(min);
         }
         else{
-            this.stats.add(stat);
+            return "0";
         }
+    }
+
+    public String getavg(int i){
+        int x = this.getcount();
+        if(x>0) {
+
+            if (i == 0) {
+                i = this.getcount();
+            }
+            if (i > getcount()) {
+                i = this.getcount();
+            }
+            int total = 0;
+            Stat stat;
+            for (int y = 0; y < i; y++) {
+                stat = stats.get(y);
+                total = total + Integer.parseInt(stat.getData());
+            }
+            total = total / i;
+
+            return String.valueOf(total);
+        }
+        else {
+            return "0";
+        }
+    }
+
+    // calculates the median value
+    public String getmed(int i) {
+        int x = this.getcount();
+        if(x>0) {
+            if (i == 0) {
+                i = this.getcount();
+            }
+            if (i > getcount()) {
+                i = this.getcount();
+            }
+            int total = 0;
+            ArrayList<Integer> ints = new ArrayList<Integer>();
+            Stat stat;
+            for (int y = 0; y < i; y++) {
+                stat = stats.get(y);
+                ints.add(Integer.parseInt(stat.getData()));
+                Collections.sort(ints);
+            }
+            float median = 0;
+            if (i == 0) {
+                //even number list
+                //need to average the
+
+                int a = i;
+                a = a / 2;
+                int b = a - 1;
+                median = (ints.get(a) + ints.get(b)) / 2;
+            } else {
+                int a = i;
+                a = a / 2 + 1;
+                median = (ints.get(a));
+            }
+            return String.valueOf(median);
+        }
+        else {
+            return "0";
+        }
+
     }
 }

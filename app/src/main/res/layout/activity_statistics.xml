@@ -404,10 +404,9 @@
         android:layout_height="wrap_content"
         android:text="Email"
         android:id="@+id/button17"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="36dp" />
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignStart="@+id/button18" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -415,8 +414,78 @@
         android:layout_height="wrap_content"
         android:text="Clear"
         android:id="@+id/button18"
-        android:layout_alignTop="@+id/button17"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView49"
+        android:layout_toStartOf="@+id/textView49" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Median Stats"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView46"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Median of all reactions:"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Median of last 10 reactions:"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Median of last 100 reactions:"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textView29"
+        android:layout_above="@+id/textView30"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textView30"
+        android:layout_alignTop="@+id/textView27"
+        android:layout_alignRight="@+id/textView29"
+        android:layout_alignEnd="@+id/textView29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textView50"
+        android:layout_alignBottom="@+id/textView28"
+        android:layout_alignRight="@+id/textView30"
+        android:layout_alignEnd="@+id/textView30" />
 
 </RelativeLayout>

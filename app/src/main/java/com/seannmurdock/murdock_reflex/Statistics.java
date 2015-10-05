@@ -42,10 +42,47 @@ public class Statistics extends ActionBarActivity {
         p4p4.setText(gb4c.getGBStatList().get(3));
 
     }
+
+    public void updatereactions(){
+        // all time stats
+        reactioncontroller rc = new reactioncontroller();
+        TextView amin = (TextView) findViewById(R.id.textView7);
+        amin.setText(rc.getRStatList().getmin(0));
+        TextView amax = (TextView) findViewById(R.id.textView14);
+        amax.setText(rc.getRStatList().getmax(0));
+        TextView aavg = (TextView) findViewById(R.id.textView20);
+        aavg.setText(rc.getRStatList().getavg(0));
+        TextView amed = (TextView) findViewById(R.id.textView29);
+        amed.setText(rc.getRStatList().getmed(0));
+
+        //last 10 times
+        TextView tenmin = (TextView) findViewById(R.id.textView10);
+        tenmin.setText(rc.getRStatList().getmin(10));
+        TextView tenmax = (TextView) findViewById(R.id.textView16);
+        tenmax.setText(rc.getRStatList().getmax(10));
+        TextView tenavg = (TextView) findViewById(R.id.textView22);
+        tenavg.setText(rc.getRStatList().getavg(10));
+        TextView tenmed = (TextView) findViewById(R.id.textView30);
+        tenmed.setText(rc.getRStatList().getmed(10));
+
+        //last 10 times
+        TextView cmin = (TextView) findViewById(R.id.textView11);
+        cmin.setText(rc.getRStatList().getmin(100));
+        TextView cmax = (TextView) findViewById(R.id.textView18);
+        cmax.setText(rc.getRStatList().getmax(100));
+        TextView cavg = (TextView) findViewById(R.id.textView24);
+        cavg.setText(rc.getRStatList().getavg(100));
+        TextView cmed = (TextView) findViewById(R.id.textView50);
+        cmed.setText(rc.getRStatList().getmed(100));
+
+
+
+    }
     @Override
     public void onResume() {
         super.onResume();
         updategsb();
+        updatereactions();
     }
 
 
