@@ -18,6 +18,8 @@ package com.seannmurdock.murdock_reflex;
 /**
  * Created by murdock on 10/5/15.
  */
+
+// lazy singleton from student picker
 public class reactioncontroller {
     private static RStatList rs =  null;
     static public RStatList getRStatList() {
@@ -26,6 +28,7 @@ public class reactioncontroller {
         }
         return rs;
     }
+    //change a reaction to a stat then add it to the list
     public void add(long l){
         String x = String.valueOf(l);
         Stat stat = new Stat(x);

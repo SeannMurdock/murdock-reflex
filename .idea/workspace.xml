@@ -10,23 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d934b5-7067-445b-8058-56fca8cbbcd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/doc/Diagram1.dia" afterPath="$PROJECT_DIR$/app/doc/Diagram1.dia" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/GBStatList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/GBStatList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/MainScreenActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/MainScreenActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/RStatList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/RStatList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Stat.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Stat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Statistics.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Statistics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameBuzzDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameBuzzDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameShowBuzzer2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameShowBuzzer2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameShowBuzzer3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameShowBuzzer3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameShowBuzzer4.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gameShowBuzzer4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb2controller.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb2controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb3controller.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb3controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb4controller.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb4controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/playerSelect.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/playerSelect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" />
     </list>
     <ignored path="murdock-reflex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,10 +120,10 @@
       <file leaf-file-name="reactioncontroller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3611112">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.65048546">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
-                <element signature="e#0#1069#0" expanded="true" />
+                <element signature="e#0#1166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1643,11 +1627,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/gsb4controller.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/MainScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/playerSelect.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactiontimer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/RStatList.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Stat.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/Statistics.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java" />
       </list>
     </option>
   </component>
@@ -1655,10 +1639,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="467" />
+    <option name="x" value="-1" />
     <option name="y" value="49" />
-    <option name="width" value="1213" />
-    <option name="height" value="557" />
+    <option name="width" value="1682" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2193,7 +2177,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="467" y="49" width="1213" height="557" extended-state="0" />
+    <frame x="-1" y="49" width="1682" height="964" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2208,13 +2192,13 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.48588538" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6754808" sideWeight="0.46963218" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3414338" sideWeight="0.46963218" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28999144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20695971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07047388" sideWeight="0.48246366" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2735,10 +2719,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/seannmurdock/murdock_reflex/reactioncontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3611112">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.65048546">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
-            <element signature="e#0#1069#0" expanded="true" />
+            <element signature="e#0#1166#0" expanded="true" />
           </folding>
         </state>
       </provider>
